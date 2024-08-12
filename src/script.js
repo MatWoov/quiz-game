@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
         progressContainer.innerText = '';
         const restartButton = document.createElement('button');
         restartButton.textContent = 'Restart Quiz';
-        restartButton.addEventListener('clic', () => {
+        restartButton.addEventListener('click', () => {
             quizDiv.style.display = 'none';
             gameSetupDiv.style.display = 'block';
             fetchCategories();
